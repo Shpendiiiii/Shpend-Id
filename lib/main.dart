@@ -19,6 +19,24 @@ class _ShpendCardState extends State<ShpendCard> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey.shade900,
+      drawer: Drawer(
+        child: ListView(
+          padding: EdgeInsets.zero,
+          children: [
+            DrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.amber.shade900,
+              ), child: Text("Drawer Header"),
+            ),
+            ListTile(
+              title: const Text('Education'), onTap: (){ Navigator.pop(context);},
+            ),
+            ListTile(
+              title: const Text("Adventures"), onTap: (){},
+            ),
+          ],
+        ),
+      ),
       appBar: AppBar(
         title: Text('Shpend ID Card'),
         centerTitle: true,
@@ -69,6 +87,11 @@ class _ShpendCardState extends State<ShpendCard> {
             ),
             SizedBox(height: 15.0,),
             Text("$counter times", style: TextStyle(color: Colors.amber, letterSpacing: 2.0),),
+            // const TabBar(tabs: [
+            //   Tab(icon: Icon(Icons.car_rental_rounded)),
+            //   Tab(icon: Icon(Icons.car_rental_rounded))
+            // ]
+            // ),
           ],
         ),
       ),
