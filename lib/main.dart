@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MApp({super.key});
+  const MyApp({super.key});
 
   // This widget is the root of your application.
   @override
