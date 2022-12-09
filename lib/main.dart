@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'education_page.dart';
 import 'package:resize/resize.dart';
+import 'package:footer/footer_view.dart';
+import 'package:footer/footer.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -35,9 +37,7 @@ class _ShpendCardState extends State<ShpendCard> {
           padding: EdgeInsets.zero,
           children: [
             DrawerHeader(
-              decoration: BoxDecoration(
-                color: Colors.amber.shade900,
-              ), child: Text("Drawer Header"),
+              child: Image.asset('sha.png', fit: BoxFit.cover,)
             ),
             ListTile(
               title: const Text('Home'), onTap: (){ Navigator.pop(context);
@@ -104,15 +104,11 @@ class _ShpendCardState extends State<ShpendCard> {
               ),
               SizedBox(height: 15.0,),
               Text("$counter times", style: TextStyle(color: Colors.amber, letterSpacing: 2.0),),
-              // const TabBar(tabs: [
-              //   Tab(icon: Icon(Icons.car_rental_rounded)),
-              //   Tab(icon: Icon(Icons.car_rental_rounded))
-              // ]
-              // ),
             ],
           ),
         ),
       ),
+
       floatingActionButton: FloatingActionButton(onPressed: () {
         setState(() {
           counter += 1;
