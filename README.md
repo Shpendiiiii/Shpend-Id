@@ -1,16 +1,25 @@
-# shpend_id_project
+# Simple Flutter Personal ID Project
 
-A new Flutter project.
+This is a simple project to demonstrate working knowledge of Flutter, a popular mobile application framework.
 
-## Getting Started
+## Technology Stack
+* Flutter
+* Dart programming language
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
+1. Clone the repo to your local machine
+    * git clone https://github.com/Shpendiiiii/shpend_id.git
+        * or simply download the files manually
+2. Navigate to the folder
+    * flutter run
+3. If you have any difficulties, promptly contact me:
+    * shpendaliu@pm.me (preferred); sailu@mailfence.com
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Conclusion
+I hope you found this project interesting and informative. If you have any questions or feedback, please don't hesitate to reach out. Thank you for taking the time to check out my project!
+
+
+
